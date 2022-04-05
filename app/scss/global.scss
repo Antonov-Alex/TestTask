@@ -1,0 +1,61 @@
+html{
+    box-sizing: border-box;
+    
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+
+}
+
+body{
+    min-width: 320px;
+    position: relative;
+    overflow-x: hidden;
+   
+    margin: 0;
+    padding: 0;
+    @extend %roboto-reg;
+    font-size: 15px;
+    
+}
+
+main, footer{
+    background-color: #ededed;
+}
+
+
+
+.btn{
+    background-color: #006c86;
+    border: none;
+    color: #fff;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    @extend %roboto-bold;
+}
